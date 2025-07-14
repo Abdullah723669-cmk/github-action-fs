@@ -2,7 +2,7 @@ name: First Demo Action
 
 on: 
  push:
-  braches:
+  branches:
    - mamunBranch
 
 jobs:
@@ -12,7 +12,7 @@ jobs:
   steps:
    - run: echo "Hello from Mamun"
    - name: Checkout
-     uses: acions/checkout@v4
+     uses: actions/checkout@v4
 
    - name: Run a one-line script
      run: |
