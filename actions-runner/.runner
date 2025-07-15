@@ -1,0 +1,11 @@
+﻿{
+  "agentId": 21,
+  "agentName": "kali",
+  "poolId": 1,
+  "poolName": "Default",
+  "serverUrl": "https://pipelinesghubeus23.actions.githubusercontent.com/aBdJSjx7D93EOX14mVbzduveWJY413R6KKnknx7XqFhQSa9iiF/",
+  "gitHubUrl": "https://github.com/Abdullah723669-cmk/github-action-fs",
+  "workFolder": "_work",
+  "useV2Flow": true,
+  "serverUrlV2": "https://broker.actions.githubusercontent.com/"
+}

@@ -5,12 +5,14 @@ FROM node:18
 WORKDIR /app
 
 # Copy package files and install dependencies
-COPY package*.json ./
-RUN npm install
+COPY package*.json yarn.lock ./
+
+RUN yarn install --frozen-lockfile
 
 # Copy app files
 COPY . .
 
 # Expose port and run the app
 EXPOSE 3000
-CMD ["node", "index.js"]
+
+CMD ["yarn", "start"]
