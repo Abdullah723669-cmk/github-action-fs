@@ -39,7 +39,7 @@ jobs:
         run: docker push ${{ secrets.DOCKER_USERNAME }}/github-action-fs:latest-1
 
       - name: Deploy to EC2
-        uses: appleboy/ssh-action@v0.1.10
+        uses: appleboy/ssh-action@master
         with:
           host: ${{ secrets.EC2_HOST }}
           username: ${{ secrets.EC2_USER }}
@@ -48,4 +48,4 @@ jobs:
             bash ~/deploy.sh
 
       - name: ✅ Notify Success
-        run: echo "🚀 Deployment successfullly---Faiza-- welcome Bangladesh!! MAMUN --AND--NEON saheb --subaita! 2025"
+        run: echo "🚀 Deployment successfullly---Faiza-- welcome Bangladesh!! MAMUN --NEON saheb --subaita! 2025"
