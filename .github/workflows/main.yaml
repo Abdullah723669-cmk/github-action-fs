@@ -45,4 +45,4 @@ jobs:
             bash ~/deploy.sh
 
       - name: ✅ Notify Success
-        run: echo "🚀 Deployment successfullly-------NEON!"
+        run: echo "🚀 Deployment successfullly-----MAMUN --AND--NEON!"
